@@ -98,11 +98,12 @@ main,
 
 .hero-name-single {
   white-space: nowrap;
+  font-size: clamp(3rem, 7vw, 5.8rem);
 }
 
 .hero-center {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 108px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 162px minmax(0, 1fr);
   gap: 20px;
   align-items: center;
 }
@@ -110,7 +111,7 @@ main,
 .hero-meta {
   margin: 0;
   font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
-  font-size: 0.74rem;
+  font-size: 1.1rem;
   line-height: 1.4;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -128,7 +129,7 @@ main,
 .hero-stack {
   display: grid;
   gap: 8px;
-  width: 108px;
+  width: 162px;
   justify-self: center;
 }
 
@@ -350,7 +351,7 @@ h2 {
 
 .timeline-note {
   margin-top: 10px;
-  font-size: clamp(0.88rem, 1.1vw, 0.98rem);
+  font-size: clamp(0.78rem, 1vw, 0.9rem);
   color: rgba(254, 250, 224, 0.72);
 }
 
@@ -567,7 +568,7 @@ h2 {
   }
 
   .hero-name-single {
-    font-size: clamp(2rem, 10vw, 3rem);
+    font-size: clamp(2.4rem, 11vw, 3.8rem);
   }
 
   .hero-center {
@@ -578,7 +579,7 @@ h2 {
 
   .hero-meta {
     text-align: center;
-    font-size: 0.68rem;
+    font-size: 0.9rem;
   }
 
   .hero-meta-left {
@@ -587,7 +588,7 @@ h2 {
 
   .hero-stack {
     order: 2;
-    width: 92px;
+    width: 138px;
   }
 
   .hero-meta-right {
